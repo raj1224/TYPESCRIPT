@@ -73,3 +73,67 @@
 // }
 // abcd();
 // console.log('hey');
+
+//INTERFACES AND TYPE ALIASES
+// .defining INTERFACES
+// .using interfaces to define object shapes
+// .extending interfaces.
+// .type ALIASES
+// .intersection types
+
+// interface User{
+//     name:String,
+//     email:string,
+//     password:string,
+//     gender?:string //OPTIONAL
+// }
+// function abcd(obj:User){
+
+// }
+// abcd({name:"raj",email:"raj@gmail.com",password:"1234"});
+
+// .extending interfaces.
+// interface User{
+//     name:String,
+//     email:string,
+//     password:string,
+//     gender?:string //OPTIONAL
+// }
+// interface Admin extends User{
+//     admin:boolean;
+// }
+// function abcd(obj:Admin){
+
+// }
+
+
+// interface abcd{
+//     name:string;
+// }
+
+// interface abcd{
+//     email:string;
+// }
+// function abcd(obj:abcd){
+
+// }
+
+
+// TYPE ALIASES
+// type chacha = number:
+// let a:chacha;
+// type value = string | number |null;
+// let a :value;
+
+// INTERSECTION TYPES
+type User = {
+    name:string,
+    email:string,
+}
+type Admin = User & {
+    getDetails(user:string):void
+}
+
+function abcd(a:Admin){
+    a.getDetails
+}

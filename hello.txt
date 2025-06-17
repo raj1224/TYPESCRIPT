@@ -25,4 +25,9 @@ tsc --watch
 .{},(),[] :- reference
 .all other - primitves
 
-
+//INTERFACES AND TYPE ALIASES
+.defining INTERFACES
+.using interfaces to define object shapes
+.extending interfaces.
+.type ALIASES
+.intersection types
