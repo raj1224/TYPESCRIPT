@@ -1,0 +1,28 @@
+ts-type safety.
+sudo npm i typescript -g
+tsc app.ts-terminal
+
+
+typescript setup
+.setting up a typescript project
+.condiguring tsconfig.json
+.compiling ts
+
+tsc --init -terminal
+tsc --watch
+
+
+//BASIC types
+
+.primitves types(number,string,boolean)
+.arrays
+.tuples
+.enums
+.any,unknown,void,null,undefined,never
+
+//primitves and reference
+
+.{},(),[] :- reference
+.all other - primitves
+
+
